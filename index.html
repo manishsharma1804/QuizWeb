@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div id="container">
+        <div id="current-time"></div>
+        <div id="user-form">
+            <h2>Enter Your Details</h2>
+            <form id="detailsForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br>
+                <label for="subject">Subject:</label>
+                <select id="subject" name="subject" required>
+                    <option value="hindi">Hindi</option>
+                    <option value="english">English</option>
+                </select><br>
+                <label for="difficulty">Difficulty:</label>
+                <select id="difficulty" name="difficulty" required>
+                    <option value="easy">Easy</option>
+                    <option value="medium">Medium</option>
+                    <option value="hard">Hard</option>
+                </select><br>
+                <button type="submit">Start Quiz</button>
+            </form>
+        </div>
+
+        <div id="quiz-container" style="display: none;">
+            <div id="timer">Time left: <span id="time">00:00</span></div>
+            <div id="quiz"></div>
+            <button id="quitQuiz">Quit Quiz</button>
+            <button id="resetQuiz">Reset Quiz</button>
+            <button id="submitQuiz">Submit Quiz</button>
+        </div>
+        
+
+        <div id="result-container" style="display: none;">
+            <h2>Quiz Results</h2>
+            <div id="userDetails"></div>
+            <div id="quizResult"></div>
+            <button id="showAnswers">Show Answers</button>
+            <div id="answers"></div>
+            <button onclick="window.print()">Print Results</button>
+            <button id="homeButton">Home</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
