@@ -4,6 +4,7 @@
           "question": "प्रश्न 1: भारत का राष्ट्रीय पशु कौन सा है?",
           "options": ["शेर", "हाथी", "बाघ"],
           "answer": "बाघ",
+          "difficulty": "medium",
           "hint": "यह जंगली जानवर अफ्रीका में भी पाया जाता है।"
       },
       {
@@ -15,14 +16,592 @@
   "english": [
       {
           "question": "Question 1: What is the capital of France?",
+          "difficulty": "hard",
           "options": ["Berlin", "Madrid", "Paris"],
           "answer": "Paris"
       },
       {
           "question": "Question 2: What is 2 + 2?",
+          "difficulty": "medium",
           "options": ["3", "4", "5"],
           "answer": "4",
           "hint": "It's a simple arithmetic addition."
+      },
+      {
+        "question": "Question 2: What is 2 + 2?",
+        "difficulty": "medium",
+        "options": ["3", "4", "5"],
+        "answer": "4",
+        "hint": "It's a simple arithmetic addition."
+    },
+    {
+        "question": "Question 2: What is 2 + 2?",
+        "difficulty": "easy",
+        "options": ["3", "4", "5"],
+        "answer": "4",
+        "hint": "It's a simple arithmetic addition."
+    },
+    {
+        "question": "Question 2: What is 2 + 2?",
+        "difficulty": "easy",
+        "options": ["3", "4", "5"],
+        "answer": "4",
+        "hint": "It's a simple arithmetic addition."
+    },
+    {
+        "question": "Question 2: What is 2 + 2?",
+        "difficulty": "easy",
+        "options": ["3", "4", "5"],
+        "answer": "4",
+        "hint": "It's a simple arithmetic addition."
+    },
+    {
+        "question": "Question 2: What is 2 + 2?",
+        "difficulty": "easy",
+        "options": ["3", "4", "5"],
+        "answer": "4",
+        "hint": "It's a simple arithmetic addition."
+    },
+    {
+        "question": "Question 2: What is 2 + 2?",
+        "difficulty": "easy",
+        "options": ["3", "4", "5"],
+        "answer": "4",
+        "hint": "It's a simple arithmetic addition."
+    },
+    {
+        "question": "Question 2: What is 2 + 2?",
+        "difficulty": "easy",
+        "options": ["3", "4", "5"],
+        "answer": "4",
+        "hint": "It's a simple arithmetic addition."
+    },
+    {
+        "question": "Question 2: What is 2 + 2?",
+        "difficulty": "easy",
+        "options": ["3", "4", "5"],
+        "answer": "4",
+        "hint": "It's a simple arithmetic addition."
+    },
+    {
+        "question": "Question 2: What is 2 + 2?",
+        "difficulty": "easy",
+        "options": ["3", "4", "5"],
+        "answer": "4",
+        "hint": "It's a simple arithmetic addition."
+    },
+    {
+        "question": "Question 2: What is 2 + 2?",
+        "difficulty": "easy",
+        "options": ["3", "4", "5"],
+        "answer": "4",
+        "hint": "It's a simple arithmetic addition."
+    },
+    {
+        "question": "Question 2: What is 2 + 2?",
+        "difficulty": "easy",
+        "options": ["3", "4", "5"],
+        "answer": "4",
+        "hint": "It's a simple arithmetic addition."
+    },
+    {
+        "question": "Question 2: What is 2 + 2?",
+        "difficulty": "easy",
+        "options": ["3", "4", "5"],
+        "answer": "4",
+        "hint": "It's a simple arithmetic addition."
+    }
+  ],
+    "web_development": [
+      {
+        "question": "What does HTML stand for?",
+        "options": ["Hyper Text Markup Language", "Hyperlinks and Text Markup Language", "Home Tool Markup Language"],
+        "answer": "Hyper Text Markup Language",
+        "difficulty": "easy",
+        "hint": "It is the standard markup language for creating web pages."
+      },
+      {
+        "question": "Which programming language is primarily used for styling web pages?",
+        "options": ["HTML", "JavaScript", "CSS"],
+        "answer": "CSS",
+        "difficulty": "easy",
+        "hint": "It stands for Cascading Style Sheets."
+      },
+      {
+        "question": "What does CSS stand for?",
+        "options": ["Cascading Style Sheet", "Cascading Style Syntax", "Cascading Sheet Style"],
+        "answer": "Cascading Style Sheet",
+        "difficulty": "easy",
+        "hint": "It defines how HTML elements are to be displayed."
+      },
+      {
+        "question": "Which HTML tag is used to define an unordered list?",
+        "options": ["<ol>", "<li>", "<ul>"],
+        "answer": "<ul>",
+        "difficulty": "easy",
+        "hint": "It is used to create a bulleted list."
+      },
+      {
+        "question": "What is the correct way to comment in HTML?",
+        "options": ["<!-- This is a comment -->", "// This is a comment", "/* This is a comment */"],
+        "answer": "<!-- This is a comment -->",
+        "difficulty": "easy",
+        "hint": "It is a way to add notes to HTML code that will not be displayed in the web page."
+      },
+      {
+        "question": "Which symbol is used to access an ID in CSS?",
+        "options": ["#", ".", "@"],
+        "answer": "#",
+        "difficulty": "easy",
+        "hint": "It is followed by the ID name."
+      },
+      {
+        "question": "What does HTTP stand for?",
+        "options": ["Hyper Text Transfer Protocol", "Hyperlinks and Text Transfer Protocol", "Home Tool Transfer Protocol"],
+        "answer": "Hyper Text Transfer Protocol",
+        "difficulty": "medium",
+        "hint": "It is the protocol used for transmitting data over the World Wide Web."
+      },
+      {
+        "question": "What is the purpose of a CSS reset?",
+        "options": ["To clear all the default browser styling", "To set default font size", "To reset JavaScript functions"],
+        "answer": "To clear all the default browser styling",
+        "difficulty": "medium",
+        "hint": "It is used to reduce browser inconsistencies."
+      },
+      {
+        "question": "What is the correct way to include an external CSS file in an HTML document?",
+        "options": ["<link rel='stylesheet' href='styles.css'>", "<style src='styles.css'>", "<css href='styles.css'>"],
+        "answer": "<link rel='stylesheet' href='styles.css'>",
+        "difficulty": "medium",
+        "hint": "It is placed in the <head> section of the HTML document."
+      },
+      {
+        "question": "What is the purpose of the 'title' attribute in an HTML <a> tag?",
+        "options": ["To specify the destination URL", "To specify the link text", "To provide extra information about the link"],
+        "answer": "To provide extra information about the link",
+        "difficulty": "medium",
+        "hint": "It is displayed as a tooltip when the mouse is placed over the link."
+      },
+      {
+        "question": "What is the purpose of the 'target' attribute in an HTML <a> tag?",
+        "options": ["To specify the link text", "To specify the destination URL", "To specify where to open the linked document"],
+        "answer": "To specify where to open the linked document",
+        "difficulty": "medium",
+        "hint": "It determines the browser context in which the linked document will open."
+      },
+      {
+        "question": "What is the purpose of the 'alt' attribute in an HTML <img> tag?",
+        "options": ["To specify the image source", "To specify the image width", "To provide alternative text for an image"],
+        "answer": "To provide alternative text for an image",
+        "difficulty": "medium",
+        "hint": "It is used for accessibility purposes."
+      },
+      {
+        "question": "What is the purpose of a 'meta' tag in HTML?",
+        "options": ["To define metadata about an HTML document", "To link to an external stylesheet", "To embed images"],
+        "answer": "To define metadata about an HTML document",
+        "difficulty": "medium",
+        "hint": "It includes metadata such as author, keywords, and character set."
+      },
+      {
+        "question": "What is the purpose of the 'href' attribute in an HTML <a> tag?",
+        "options": ["To specify the link text", "To specify the destination URL", "To specify where to open the linked document"],
+        "answer": "To specify the destination URL",
+        "difficulty": "medium",
+        "hint": "It contains the URL of the page the link goes to."
+      },
+      {
+        "question": "What is the purpose of the 'src' attribute in an HTML <script> tag?",
+        "options": ["Script source", "Script content", "Script type"],
+        "answer": "Script source",
+        "difficulty": "medium",
+        "hint": "It specifies the URL of the external script file."
+      },
+      {
+        "question": "What is the correct way to define a function in JavaScript?",
+        "options": ["function myFunction()", "def myFunction()", "void myFunction()"],
+        "answer": "function myFunction()",
+        "difficulty": "medium",
+        "hint": "It starts with the 'function' keyword followed by the function name."
+      },
+      {
+        "question": "What is the purpose of the 'type' attribute in an HTML <script> tag?",
+        "options": ["To specify the script source", "To specify the script content", "To specify the script type"],
+        "answer": "To specify the script type",
+        "difficulty": "medium",
+        "hint": "It indicates the MIME type of the script."
+      },
+      {
+        "question": "What is the purpose of the 'scope' attribute in an HTML <th> tag?",
+        "options": ["To specify the table header cell content", "To specify the table cell content", "To specify the scope of a header cell"],
+        "answer": "To specify the scope of a header cell",
+        "difficulty": "medium",
+        "hint": "It defines the set of data cells for which the header cell provides header information."
+      },
+      {
+        "question": "What is the purpose of the 'title' attribute in an HTML <img> tag?",
+        "options": ["To specify the image source", "To specify the image width", "To provide alternative text for an image"],
+        "answer": "To provide alternative text for an image",
+        "difficulty": "medium",
+        "hint": "It is displayed as a tooltip when the image cannot be displayed."
+      },
+      {
+        "question": "What is the purpose of the 'for' attribute in an HTML <label> tag?",
+        "options": ["To specify the label text", "To specify the label content", "To specify the ID of the element the label is for"],
+        "answer": "To specify the ID of the element the label is for",
+        "difficulty": "medium",
+        "hint": "It associates the label with a form control."
+      },
+      {
+        "question": "What is the purpose of the 'id' attribute in HTML?",
+        "options": ["To specify a unique identifier for an element", "To specify a class for an element", "To specify inline styles for an element"],
+        "answer": "To specify a unique identifier for an element",
+        "difficulty": "medium",
+        "hint": "It must be unique within the HTML document."
+      },
+      {
+        "question": "What is the purpose of the 'class' attribute in HTML?",
+        "options": ["To specify a unique identifier for an element", "To specify a class for an element", "To specify inline styles for an element"],
+        "answer": "To specify a class for an element",
+        "difficulty": "medium",
+        "hint": "It can be used to apply CSS styles to multiple elements."
+      },
+      {
+        "question": "What does JSON stand for?",
+        "options": ["JavaScript Object Notation", "JavaScript Oriented Notation", "JavaScript Object Namespace"],
+        "answer": "JavaScript Object Notation",
+        "difficulty": "medium",
+        "hint": "It is a lightweight data interchange format."
+      },
+      {
+        "question": "What is the correct way to define a variable in JavaScript?",
+        "options": ["var myVar = 10;", "variable myVar = 10;", "myVar = 10;"],
+        "answer": "var myVar = 10;",
+        "difficulty": "medium",
+        "hint": "It starts with the 'var' keyword followed by the variable name."
+      },
+      {
+        "question": "What is the purpose of the 'placeholder' attribute in an HTML <input> tag?",
+        "options": ["To specify the input type", "To specify the input value", "To provide a hint to the user about the expected value of the input field"],
+        "answer": "To provide a hint to the user about the expected value of the input field",
+        "difficulty": "medium",
+        "hint": "It is displayed in the input field before the user enters a value."
+      },
+      {
+        "question": "What is the purpose of the 'disabled' attribute in an HTML <input> tag?",
+        "options": ["To disable the input field", "To enable the input field", "To specify the input type"],
+        "answer": "To disable the input field",
+        "difficulty": "medium",
+        "hint": "It prevents the user from interacting with the input field."
+      },
+      {
+        "question": "What is the purpose of the 'required' attribute in an HTML <input> tag?",
+        "options": ["To specify the input type", "To require the input field to be filled out before submitting the form", "To disable the input field"],
+        "answer": "To require the input field to be filled out before submitting the form",
+        "difficulty": "medium",
+        "hint": "It specifies that the input field must be filled out before submitting the form."
+      },
+      {
+        "question": "What is the purpose of the 'autocomplete' attribute in an HTML <input> tag?",
+        "options": ["To specify the input type", "To enable or disable autocomplete for an input field", "To specify the input value"],
+        "answer": "To enable or disable autocomplete for an input field",
+        "difficulty": "medium",
+        "hint": "It controls whether the browser should automatically complete the input value based on the user's input history."
+      },
+      {
+        "question": "What is the purpose of the 'maxlength' attribute in an HTML <input> tag?",
+        "options": ["To specify the maximum value of the input field", "To specify the input type", "To specify the maximum number of characters allowed in the input field"],
+        "answer": "To specify the maximum number of characters allowed in the input field",
+        "difficulty": "medium",
+        "hint": "It limits the number of characters the user can input into the field."
+      },
+      {
+        "question": "What is the purpose of the 'minlength' attribute in an HTML <input> tag?",
+        "options": ["To specify the minimum value of the input field", "To specify the input type", "To specify the minimum number of characters required in the input field"],
+        "answer": "To specify the minimum number of characters required in the input field",
+        "difficulty": "medium",
+        "hint": "It specifies the minimum number of characters the user must input into the field."
+      },
+      {
+        "question": "What is the purpose of the 'pattern' attribute in an HTML <input> tag?",
+        "options": ["To specify the input type", "To specify a regular expression pattern the input value must match", "To specify the input value"],
+        "answer": "To specify a regular expression pattern the input value must match",
+        "difficulty": "medium",
+        "hint": "It is used for form validation."
+      },
+      {
+        "question": "What is the purpose of the 'autofocus' attribute in an HTML <input> tag?",
+        "options": ["To specify the input type", "To automatically focus the input field when the page loads", "To specify the input value"],
+        "answer": "To automatically focus the input field when the page loads",
+        "difficulty": "medium",
+        "hint": "It specifies that the input field should automatically have focus when the page loads."
+      },
+      {
+        "question": "What is the purpose of the 'multiple' attribute in an HTML <select> tag?",
+        "options": ["To specify the input type", "To allow multiple selections in a dropdown list", "To specify the input value"],
+        "answer": "To allow multiple selections in a dropdown list",
+        "difficulty": "medium",
+        "hint": "It enables the selection of multiple options in a dropdown list."
+      },
+      {
+        "question": "What is the purpose of the 'readonly' attribute in an HTML <input> tag?",
+        "options": ["To specify the input type", "To make the input field read-only", "To specify the input value"],
+        "answer": "To make the input field read-only",
+        "difficulty": "medium",
+        "hint": "It prevents the user from editing the input value."
+      },
+      {
+        "question": "What is the purpose of the 'autocomplete' attribute in an HTML <form> tag?",
+        "options": ["To specify the input type", "To enable or disable autocomplete for all input fields within the form", "To specify the form action"],
+        "answer": "To enable or disable autocomplete for all input fields within the form",
+        "difficulty": "medium",
+        "hint": "It controls autocomplete behavior for all input fields within the form."
+      },
+      {
+        "question": "What is the purpose of the 'enctype' attribute in an HTML <form> tag?",
+        "options": ["To specify the input type", "To specify the character encoding used to submit the form data", "To specify the form action"],
+        "answer": "To specify the character encoding used to submit the form data",
+        "difficulty": "medium",
+        "hint": "It determines how form data should be encoded before it is sent to the server."
+      },
+      {
+        "question": "What is the purpose of the 'method' attribute in an HTML <form> tag?",
+        "options": ["To specify the input type", "To specify the form action", "To specify the HTTP method used to submit the form data"],
+        "answer": "To specify the HTTP method used to submit the form data",
+        "difficulty": "medium",
+        "hint": "It specifies the HTTP method used when submitting the form."
+      },
+      {
+        "question": "What is the purpose of the 'target' attribute in an HTML <form> tag?",
+        "options": ["To specify the input type", "To specify where to display the response received after submitting the form", "To specify the form action"],
+        "answer": "To specify where to display the response received after submitting the form",
+        "difficulty": "medium",
+        "hint": "It specifies the name of the window or frame where the response should be displayed."
+      },
+      {
+        "question": "What is the purpose of the 'novalidate' attribute in an HTML <form> tag?",
+        "options": ["To specify the input type", "To disable form validation", "To specify the form action"],
+        "answer": "To disable form validation",
+        "difficulty": "medium",
+        "hint": "It prevents browser validation of form elements."
+      },
+      {
+        "question": "What is the purpose of the 'async' attribute in an HTML <script> tag?",
+        "options": ["To specify the script source", "To specify the script content", "To specify whether the script should be executed asynchronously"],
+        "answer": "To specify whether the script should be executed asynchronously",
+        "difficulty": "medium",
+        "hint": "It allows the script to be downloaded asynchronously while the HTML document is parsed."
+      },
+      {
+        "question": "What is the purpose of the 'defer' attribute in an HTML <script> tag?",
+        "options": ["To specify the script source", "To specify whether the script execution should be deferred until after the HTML document is parsed", "To specify the script type"],
+        "answer": "To specify whether the script execution should be deferred until after the HTML document is parsed",
+        "difficulty": "medium",
+        "hint": "It delays script execution until after the document has been parsed."
+      },
+      {
+        "question": "What is the purpose of the 'rel' attribute in an HTML <link> tag?",
+        "options": ["To specify the link text", "To specify the relationship between the current document and the linked document", "To specify where to open the linked document"],
+        "answer": "To specify the relationship between the current document and the linked document",
+        "difficulty": "medium",
+        "hint": "It defines the relationship between the current document and the linked document."
+      },
+      {
+        "question": "What is the purpose of the 'preload' attribute in an HTML <audio> tag?",
+        "options": ["To specify the audio source", "To specify the audio content", "To specify whether the audio should be preloaded"],
+        "answer": "To specify whether the audio should be preloaded",
+        "difficulty": "medium",
+        "hint": "It specifies that the audio should be loaded when the page loads."
+      },
+      {
+        "question": "What is the purpose of the 'controls' attribute in an HTML <video> tag?",
+        "options": ["To specify the video source", "To specify the video content", "To specify whether playback controls should be displayed for the video"],
+        "answer": "To specify whether playback controls should be displayed for the video",
+        "difficulty": "medium",
+        "hint": "It adds playback controls (such as play, pause, and volume) to the video."
+      },
+      {
+        "question": "What is the purpose of the 'sandbox' attribute in an HTML <iframe> tag?",
+        "options": ["To specify the iframe source", "To specify the iframe content", "To restrict what the embedded content can do"],
+        "answer": "To restrict what the embedded content can do",
+        "difficulty": "medium",
+        "hint": "It creates an isolated environment for the embedded content."
+      },
+      {
+        "question": "What is the purpose of the 'scrolling' attribute in an HTML <iframe> tag?",
+        "options": ["To specify the iframe source", "To specify whether scrollbars should be displayed for the iframe", "To specify the iframe content"],
+        "answer": "To specify whether scrollbars should be displayed for the iframe",
+        "difficulty": "medium",
+        "hint": "It controls whether scrollbars should be displayed for the iframe."
+      },
+      {
+        "question": "What is the purpose of the 'charset' attribute in an HTML <meta> tag?",
+        "options": ["To specify the character encoding used for the document", "To specify the document title", "To specify the viewport settings"],
+        "answer": "To specify the character encoding used for the document",
+        "difficulty": "medium",
+        "hint": "It specifies the character encoding used for the document."
+      },
+      {
+        "question": "What is the purpose of the 'content' attribute in an HTML <meta> tag?",
+        "options": ["To specify the character encoding used for the document", "To specify the document title", "To specify metadata content"],
+        "answer": "To specify metadata content",
+        "difficulty": "medium",
+        "hint": "It provides metadata content for the document."
+      },
+      {
+        "question": "What is the purpose of the 'download' attribute in an HTML <a> tag?",
+        "options": ["To specify the link text", "To specify the link URL", "To prompt the user to download the linked file"],
+        "answer": "To prompt the user to download the linked file",
+        "difficulty": "medium",
+        "hint": "It forces the browser to download the linked file instead of navigating to it."
+      },
+      {
+        "question": "What is the purpose of the 'hreflang' attribute in an HTML <a> tag?",
+        "options": ["To specify the link text", "To specify the link URL", "To specify the language of the linked document"],
+        "answer": "To specify the language of the linked document",
+        "difficulty": "medium",
+        "hint": "It specifies the language of the linked document."
+      },
+      {
+        "question": "What is the purpose of the 'media' attribute in an HTML <link> tag?",
+        "options": ["To specify the link text", "To specify the link URL", "To specify the media type or media query for the linked document"],
+        "answer": "To specify the media type or media query for the linked document",
+        "difficulty": "medium",
+        "hint": "It specifies the media type or media query for the linked document."
+      },
+      {
+        "question": "What is the purpose of the 'sizes' attribute in an HTML <link> tag?",
+        "options": ["To specify the link text", "To specify the link URL", "To specify the sizes of the icons for the linked document"],
+        "answer": "To specify the sizes of the icons for the linked document",
+        "difficulty": "medium",
+        "hint": "It specifies the sizes of the icons for the linked document."
+      },
+      {
+        "question": "What is the purpose of the 'srcset' attribute in an HTML <img> tag?",
+        "options": ["To specify the image source", "To specify multiple image sources for responsive images", "To specify the image width"],
+        "answer": "To specify multiple image sources for responsive images",
+        "difficulty": "medium",
+        "hint": "It provides multiple sources for the browser to choose from, based on device pixel density."
+      },
+      {
+        "question": "What is the purpose of the 'usemap' attribute in an HTML <img> tag?",
+        "options": ["To specify the image source", "To specify the image width", "To specify a client-side image map to use for the image"],
+        "answer": "To specify a client-side image map to use for the image",
+        "difficulty": "medium",
+        "hint": "It associates an image with a client-side image map."
+      },
+      {
+        "question": "What is the purpose of the 'async' attribute in an HTML <iframe> tag?",
+        "options": ["To specify the iframe source", "To specify whether the iframe content should be loaded asynchronously", "To specify the iframe content"],
+        "answer": "To specify whether the iframe content should be loaded asynchronously",
+        "difficulty": "medium",
+        "hint": "It indicates whether the iframe content should be loaded asynchronously."
+      },
+      {
+        "question": "What is the purpose of the 'height' attribute in an HTML <iframe> tag?",
+        "options": ["To specify the iframe source", "To specify the iframe height", "To specify the iframe content"],
+        "answer": "To specify the iframe height",
+        "difficulty": "medium",
+        "hint": "It specifies the height of the iframe."
+      },
+      {
+        "question": "What is the purpose of the 'referrerpolicy' attribute in an HTML <iframe> tag?",
+        "options": ["To specify the iframe source", "To specify the policy for sending the Referer header", "To specify the iframe content"],
+        "answer": "To specify the policy for sending the Referer header",
+        "difficulty": "medium",
+        "hint": "It controls how much information should be included in the Referer header when the user navigates to another page."
+      },
+      {
+        "question": "What is the purpose of the 'sandbox' attribute in an HTML <iframe> tag?",
+        "options": ["To specify the iframe source", "To specify the iframe content", "To restrict what the embedded content can do"],
+        "answer": "To restrict what the embedded content can do",
+        "difficulty": "medium",
+        "hint": "It creates an isolated environment for the embedded content."
+      },
+      {
+        "question": "What is the purpose of the 'width' attribute in an HTML <iframe> tag?",
+        "options": ["To specify the iframe source", "To specify the iframe content", "To specify the iframe width"],
+        "answer": "To specify the iframe width",
+        "difficulty": "medium",
+        "hint": "It specifies the width of the iframe."
+      },
+      {
+        "question": "What is the purpose of the 'scrolling' attribute in an HTML <iframe> tag?",
+        "options": ["To specify the iframe source", "To specify whether scrollbars should be displayed for the iframe", "To specify the iframe content"],
+        "answer": "To specify whether scrollbars should be displayed for the iframe",
+        "difficulty": "medium",
+        "hint": "It controls whether scrollbars should be displayed for the iframe."
+      },
+      {
+        "question": "What is the purpose of the 'controls' attribute in an HTML <audio> tag?",
+        "options": ["To specify the audio source", "To specify the audio content", "To specify whether playback controls should be displayed for the audio"],
+        "answer": "To specify whether playback controls should be displayed for the audio",
+        "difficulty": "medium",
+        "hint": "It adds playback controls (such as play, pause, and volume) to the audio."
+      },
+      {
+        "question": "What is the purpose of the 'autoplay' attribute in an HTML <audio> tag?",
+        "options": ["To specify the audio source", "To specify whether the audio should start playing automatically", "To specify the audio content"],
+        "answer": "To specify whether the audio should start playing automatically",
+        "difficulty": "medium",
+        "hint": "It starts playing the audio automatically when the page loads."
+      },
+      {
+        "question": "What is the purpose of the 'loop' attribute in an HTML <audio> tag?",
+        "options": ["To specify the audio source", "To specify the audio content", "To specify whether the audio should loop"],
+        "answer": "To specify whether the audio should loop",
+        "difficulty": "medium",
+        "hint": "It makes the audio loop continuously when it reaches the end."
+      },
+      {
+        "question": "What is the purpose of the 'preload' attribute in an HTML <audio> tag?",
+        "options": ["To specify the audio source", "To specify the audio content", "To specify whether the audio should be preloaded"],
+        "answer": "To specify whether the audio should be preloaded",
+        "difficulty": "medium",
+        "hint": "It specifies that the audio should be loaded when the page loads."
+      },
+      {
+        "question": "What is the purpose of the 'poster' attribute in an HTML <video> tag?",
+        "options": ["To specify the video source", "To specify the video content", "To specify an image to be shown while the video is downloading"],
+        "answer": "To specify an image to be shown while the video is downloading",
+        "difficulty": "medium",
+        "hint": "It provides a placeholder image for the video."
+      },
+      {
+        "question": "What is the purpose of the 'autoplay' attribute in an HTML <video> tag?",
+        "options": ["To specify the video source", "To specify whether the video should start playing automatically", "To specify the video content"],
+        "answer": "To specify whether the video should start playing automatically",
+        "difficulty": "medium",
+        "hint": "It starts playing the video automatically when the page loads."
+      },
+      {
+        "question": "What is the purpose of the 'controls' attribute in an HTML <video> tag?",
+        "options": ["To specify the video source", "To specify the video content", "To specify whether playback controls should be displayed for the video"],
+        "answer": "To specify whether playback controls should be displayed for the video",
+        "difficulty": "medium",
+        "hint": "It adds playback controls (such as play, pause, and volume) to the video."
+      },
+      {
+        "question": "What is the purpose of the 'loop' attribute in an HTML <video> tag?",
+        "options": ["To specify the video source", "To specify the video content", "To specify whether the video should loop"],
+        "answer": "To specify whether the video should loop",
+        "difficulty": "medium",
+        "hint": "It makes the video loop continuously when it reaches the end."
+      },
+      {
+        "question": "What is the purpose of the 'preload' attribute in an HTML <video> tag?",
+        "options": ["To specify the video source", "To specify the video content", "To specify whether the video should be preloaded"],
+        "answer": "To specify whether the video should be preloaded",
+        "difficulty": "medium",
+        "hint": "It specifies that the video should be loaded when the page loads."
+      },
+      {
+        "question": "What is the purpose of the 'controlsList' attribute in an HTML <video> tag?",
+        "options": ["To specify the video source", "To specify the video content", "To specify which controls should be displayed for the video"],
+        "answer": "To specify which controls should be displayed for the video",
+        "difficulty": "medium",
+        "hint": "It specifies which controls should be displayed for the video."
       }
-  ]
-}
+    ]
+  }

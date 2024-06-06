@@ -20,6 +20,7 @@
                 <select id="subject" name="subject" required>
                     <option value="hindi">Hindi</option>
                     <option value="english">English</option>
+                    <option value="web_development">Web development</option>
                 </select><br>
                 <label for="difficulty">Difficulty:</label>
                 <select id="difficulty" name="difficulty" required>
@@ -27,16 +28,33 @@
                     <option value="medium">Medium</option>
                     <option value="hard">Hard</option>
                 </select><br>
-                <button type="submit">Start Quiz</button>
+                <!-- Checkbox for confirming the user has read and understood the rules -->
+                <input type="checkbox" id="rulesCheckbox" onchange="enableStartButton()"> I have read and understand the Rules of Quiz<br>
+                <!-- Hint message for the checkbox -->
+                <p id="hintMessage" style="color: red; display: none;">Please check this box to proceed.</p>
+                <!-- Button to display the rules popup -->
+                <button type="button" onclick="openRulesPopup()">Rules</button>
+                <!-- "Start Quiz" button -->
+                <button type="submit" id="startButton" disabled>Start Quiz</button>
             </form>
+        </div>
+
+        <!-- Popup for quiz rules -->
+        <div id="rulesPopup" class="popup">
+            <div class="popup-content">
+                <span class="close" onclick="closeRulesPopup()">&times;</span>
+                <h2>Quiz Rules</h2>
+                <p>This is where you display the rules of the quiz.</p>
+                <button onclick="closeRulesPopup()">I Understand</button>
+            </div>
         </div>
 
         <div id="quiz-container" style="display: none;">
             <div id="timer">Time left: <span id="time">00:00</span></div>
+            <button id="quitQuiz">Quit Quiz</button>
             <div id="quiz"></div>
             <button id="prevPage" style="display: none;">Previous</button>
             <button id="nextPage" style="display: none;">Next</button>
-            <button id="quitQuiz">Quit Quiz</button>
             <button id="resetQuiz">Reset Quiz</button>
             <button id="submitQuiz" style="display: none;">Submit Quiz</button>
         </div>
@@ -51,20 +69,6 @@
             <button id="homeButton">Home</button>
         </div>
     </div>
-    <script>
-        // Modified script to fetch questions from external JSON file
-        let quizData; // Define a global variable to store the fetched questions
-
-        fetch('questions.json')
-            .then(response => response.json())
-            .then(data => {
-                // Now 'data' contains the questions fetched from questions.json
-                // You can proceed to use this data in your application
-                quizData = data;
-                checkStoredState(); // Call checkStoredState after fetching the questions
-            })
-            .catch(error => console.error('Error fetching questions:', error));
-    </script>
     <script src="script.js"></script>
 </body>
 </html>
