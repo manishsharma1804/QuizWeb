@@ -7,7 +7,6 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
     <div id="container">
         <div id="current-time"></div>
         <div id="user-form">
@@ -35,11 +34,12 @@
         <div id="quiz-container" style="display: none;">
             <div id="timer">Time left: <span id="time">00:00</span></div>
             <div id="quiz"></div>
+            <button id="prevPage" style="display: none;">Previous</button>
+            <button id="nextPage" style="display: none;">Next</button>
             <button id="quitQuiz">Quit Quiz</button>
             <button id="resetQuiz">Reset Quiz</button>
-            <button id="submitQuiz">Submit Quiz</button>
+            <button id="submitQuiz" style="display: none;">Submit Quiz</button>
         </div>
-        
 
         <div id="result-container" style="display: none;">
             <h2>Quiz Results</h2>
@@ -51,6 +51,20 @@
             <button id="homeButton">Home</button>
         </div>
     </div>
+    <script>
+        // Modified script to fetch questions from external JSON file
+        let quizData; // Define a global variable to store the fetched questions
+
+        fetch('questions.json')
+            .then(response => response.json())
+            .then(data => {
+                // Now 'data' contains the questions fetched from questions.json
+                // You can proceed to use this data in your application
+                quizData = data;
+                checkStoredState(); // Call checkStoredState after fetching the questions
+            })
+            .catch(error => console.error('Error fetching questions:', error));
+    </script>
     <script src="script.js"></script>
 </body>
 </html>

@@ -1,0 +1,28 @@
+{
+  "hindi": [
+      {
+          "question": "प्रश्न 1: भारत का राष्ट्रीय पशु कौन सा है?",
+          "options": ["शेर", "हाथी", "बाघ"],
+          "answer": "बाघ",
+          "hint": "यह जंगली जानवर अफ्रीका में भी पाया जाता है।"
+      },
+      {
+          "question": "प्रश्न 2: महात्मा गांधी का पूरा नाम क्या था?",
+          "options": ["मोहनदास करमचंद गांधी", "जवाहरलाल नेहरू", "सुभाष चंद्र बोस"],
+          "answer": "मोहनदास करमचंद गांधी"
+      }
+  ],
+  "english": [
+      {
+          "question": "Question 1: What is the capital of France?",
+          "options": ["Berlin", "Madrid", "Paris"],
+          "answer": "Paris"
+      },
+      {
+          "question": "Question 2: What is 2 + 2?",
+          "options": ["3", "4", "5"],
+          "answer": "4",
+          "hint": "It's a simple arithmetic addition."
+      }
+  ]
+}
