@@ -140,3 +140,13 @@ button:hover {
 .popup-content h2 {
   margin-bottom: 10px;
 }
+
+.correct {
+  color: green;
+  font-weight: bold;
+}
+
+.wrong {
+  color: red;
+  font-weight: bold;
+}

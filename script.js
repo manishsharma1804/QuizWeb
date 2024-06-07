@@ -1,32 +1,31 @@
-        // Function to open the rules popup
-        function openRulesPopup() {
-            document.getElementById('rulesPopup').style.display = 'block';
-        }
+// Function to open the rules popup
+function openRulesPopup() {
+    document.getElementById('rulesPopup').style.display = 'block';
+}
 
-        // Function to close the rules popup
-        function closeRulesPopup() {
-            document.getElementById('rulesPopup').style.display = 'none';
-        }
+// Function to close the rules popup
+function closeRulesPopup() {
+    document.getElementById('rulesPopup').style.display = 'none';
+}
 
-        // Function to handle form submission
-        document.getElementById('detailsForm').addEventListener('submit', function(event) {
-            event.preventDefault();
-            if (!document.getElementById('rulesCheckbox').checked) {
-                document.getElementById('hintMessage').style.display = 'block';
-                return;
-            }
-            // Start quiz logic goes here
-            // You can call a function like startQuiz() to begin the quiz
-        });
+// Function to handle form submission
+document.getElementById('detailsForm').addEventListener('submit', function (event) {
+    event.preventDefault();
+    if (!document.getElementById('rulesCheckbox').checked) {
+        document.getElementById('hintMessage').style.display = 'block';
+        return;
+    }
+    startQuiz();
+});
 
-        // Function to enable the "Start Quiz" button when the checkbox is checked
-        document.getElementById('rulesCheckbox').addEventListener('change', function() {
-            const checkbox = document.getElementById('rulesCheckbox');
-            const startButton = document.getElementById('startButton');
-            startButton.disabled = !checkbox.checked;
-            // Hide the hint message when the checkbox is checked
-            document.getElementById('hintMessage').style.display = checkbox.checked ? 'none' : 'block';
-        });
+// Function to enable the "Start Quiz" button when the checkbox is checked
+document.getElementById('rulesCheckbox').addEventListener('change', function () {
+    const checkbox = document.getElementById('rulesCheckbox');
+    const startButton = document.getElementById('startButton');
+    startButton.disabled = !checkbox.checked;
+    // Hide the hint message when the checkbox is checked
+    document.getElementById('hintMessage').style.display = checkbox.checked ? 'none' : 'block';
+});
 
 let quizData; // Define a global variable to store the fetched questions
 let selectedQuestions = [];
@@ -47,7 +46,7 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 // Form submission event listener
-document.getElementById('detailsForm').addEventListener('submit', function(e) {
+document.getElementById('detailsForm').addEventListener('submit', function (e) {
     e.preventDefault();
     const name = document.getElementById('name').value;
     const email = document.getElementById('email').value;
@@ -140,7 +139,6 @@ function displayQuestions() {
     document.getElementById('submitQuiz').style.display = end >= selectedQuestions.length ? 'inline-block' : 'none';
 }
 
-
 // Change page
 function changePage(direction) {
     currentPage += direction;
@@ -164,7 +162,6 @@ function startTimer(minutes, seconds) {
     }, 1000);
 }
 
-// Submit quiz
 function submitQuiz() {
     const endTime = new Date().getTime();
     const userDetails = JSON.parse(localStorage.getItem('quizUserDetails'));
@@ -185,7 +182,7 @@ function submitQuiz() {
     // Automatically show answers upon submitting the quiz
     toggleAnswers();
 }
-// Show results
+
 function showResults(userDetails, userAnswers, timeTaken) {
     const userDetailsDiv = document.getElementById('userDetails');
     userDetailsDiv.innerHTML = `
@@ -199,21 +196,35 @@ function showResults(userDetails, userAnswers, timeTaken) {
     const resultDiv = document.getElementById('quizResult');
     let score = 0;
     let attempted = 0;
-    const answersHTML = selectedQuestions.map((item, index) => {
-        const questionIndex = index + 1;
-        const correct = userAnswers[index] === item.answer;
+
+    const answersHTML = selectedQuestions.map((item, i) => {
+        const questionIndex = i + 1;
+        const userAnswer = userAnswers[i];
+        const correctAnswer = item.answer;
+        const correct = userAnswer === correctAnswer;
+        
         if (correct) score++;
-        if (userAnswers[index] !== 'No Answer') attempted++;
-        return `<p>${questionIndex}. ${item.question}<br>
-        Your Answer: ${userAnswers[index]}<br>
-        Correct Answer: ${item.answer}</p>`;
+        if (userAnswer !== 'No Answer') attempted++;
+
+        return `
+            <div class="result-question">
+                <p><strong>${questionIndex}. ${item.question}</strong></p>
+                ${item.hint ? `<p><em>Hint: ${item.hint}</em></p>` : ''}
+                ${item.image ? `<img src="${item.image}" alt="Question Image" class="question-image">` : ''}
+                <p>Your Answer: <span class="${correct ? 'correct' : 'wrong'}">${userAnswer}</span></p>
+                <p>Correct Answer: ${correctAnswer}</p>
+            </div>
+        `;
     }).join('');
 
-    resultDiv.innerHTML = `<p>Your score: ${score}/${selectedQuestions.length}</p>
-                           <p>Total questions: ${selectedQuestions.length}</p>
-                           <p>Questions attempted: ${attempted}</p>
-                           <p>Correct answers: ${score}</p>
-                           <p>Wrong answers: ${attempted - score}</p>`;
+    resultDiv.innerHTML = `
+        <p>Your score: ${score}/${selectedQuestions.length}</p>
+        <p>Total questions: ${selectedQuestions.length}</p>
+        <p>Questions attempted: ${attempted}</p>
+        <p>Correct answers: ${score}</p>
+        <p>Wrong answers: ${attempted - score}</p>
+    `;
+    
     document.getElementById('answers').innerHTML = answersHTML;
 
     document.getElementById('quiz-container').style.display = 'none';
