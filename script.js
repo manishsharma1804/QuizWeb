@@ -181,8 +181,10 @@ function submitQuiz() {
     localStorage.setItem('timeTaken', timeTaken);
 
     showResults(userDetails, userAnswers, timeTaken);
-}
 
+    // Automatically show answers upon submitting the quiz
+    toggleAnswers();
+}
 // Show results
 function showResults(userDetails, userAnswers, timeTaken) {
     const userDetailsDiv = document.getElementById('userDetails');
@@ -294,4 +296,3 @@ function toggleAnswers() {
         answersShown = false;
     }
 }
-
